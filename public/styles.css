@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-image: url("background.jpg");
+  background-size: 100%;
+}
+
+#room-submit {
+  margin-top: 10px;
+}
+
+.player-row {
+  width: 300px;
+}
+
+.opponent-row {
+  width: 350px;
+}
+
+.cell {
+  border: 1px solid black;
+  margin: 5px;
+  display: inline-block;
+}
+
+.cell-player {
+  width: 20px;
+  height: 20px;
+}
+
+.cell-opponent {
+  width: 25px;
+  height: 25px;
+}
+
+.hit {
+  background-color: red;
+}
+
+.miss {
+  background-color: white;
+}
+
+.default {
+  background-color: black;
+}

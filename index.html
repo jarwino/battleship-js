@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Battleship</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+  </head>
+  <body>
+
+  <div class="container">
+    <h1 id="page-title">Battleship in JS!!</h1>
+    <h3 id="room-identifier">Room: none</h3>
+    <h3 id="player-identifier">Player: none</h3>
+    <h3 id="turn-identifier">Turn: none</h3>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Your board</h2>
+
+        <div id="you" class="board"></div>
+
+      </div>
+      <div class="col-md-6">
+        <h2>Opponent's board</h2>
+
+        <div id="opponent" class="board"></div>
+
+      </div>
+    </div>
+
+    <h3>Enter a room</h3>
+    <input id="room-input"></input></span><br>
+    <button type="button" class="btn btn-primary" id="room-submit">Join room</button>
+
+  </div>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="client.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
