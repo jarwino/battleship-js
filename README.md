@@ -1,5 +1,5 @@
-# battleship-js
+# Battleship.js
 CIS 197 final project 
 
-## How to play
+#### How to play
 `node index.js`
